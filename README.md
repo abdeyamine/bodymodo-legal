@@ -4,6 +4,7 @@ Public legal documents for the [Bodymodo](https://play.google.com/store) Android
 
 - **[Privacy Policy](https://abdeyamine.github.io/bodymodo-legal/privacy-policy.html)**
 - **[Delete Account and Data](https://abdeyamine.github.io/bodymodo-legal/delete-account.html)**
+- **[Delete Data Only](https://abdeyamine.github.io/bodymodo-legal/delete-data.html)**
 
 Hosted via GitHub Pages. To update:
 
