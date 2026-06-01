@@ -1,267 +1,228 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Privacy Policy — Bodymodo</title>
-<meta name="description" content="Privacy policy for the Bodymodo Android app. What we collect, what we don't, and how we protect your data.">
-<style>
-  :root {
-    --indigo: #4F46E5;
-    --indigo-dark: #3730A3;
-    --text: #0F172A;
-    --text-soft: #475569;
-    --border: #E2E8F0;
-    --bg: #F8FAFC;
-    --card: #FFFFFF;
-  }
-  * { box-sizing: border-box; }
-  body {
-    margin: 0;
-    background: var(--bg);
-    font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-    color: var(--text);
-  }
-  .container {
-    max-width: 760px;
-    margin: 0 auto;
-    padding: 48px 24px 96px;
-  }
-  header {
-    border-bottom: 1px solid var(--border);
-    padding-bottom: 24px;
-    margin-bottom: 32px;
-  }
-  .brand {
-    display: inline-flex;
-    align-items: center;
-    gap: 10px;
-    font-weight: 700;
-    color: var(--indigo);
-    text-decoration: none;
-    font-size: 18px;
-    letter-spacing: -0.01em;
-  }
-  .brand-dot {
-    width: 28px; height: 28px;
-    background: linear-gradient(135deg, #4A44F0, #1F0E81);
-    border-radius: 7px;
-    display: inline-block;
-  }
-  h1 {
-    font-size: 32px;
-    line-height: 1.2;
-    margin: 24px 0 8px;
-    letter-spacing: -0.02em;
-  }
-  .meta {
-    color: var(--text-soft);
-    font-size: 14px;
-    margin: 0;
-  }
-  h2 {
-    font-size: 22px;
-    margin: 40px 0 12px;
-    letter-spacing: -0.01em;
-  }
-  h3 {
-    font-size: 17px;
-    margin: 24px 0 8px;
-    color: var(--text);
-  }
-  p, ul, ol { margin: 12px 0; }
-  ul, ol { padding-left: 22px; }
-  li { margin: 6px 0; }
-  a { color: var(--indigo); text-decoration: underline; text-underline-offset: 2px; }
-  a:hover { color: var(--indigo-dark); }
-  hr {
-    border: none;
-    border-top: 1px solid var(--border);
-    margin: 40px 0;
-  }
-  table {
-    width: 100%;
-    border-collapse: collapse;
-    margin: 16px 0;
-    background: var(--card);
-    border: 1px solid var(--border);
-    border-radius: 8px;
-    overflow: hidden;
-    font-size: 15px;
-  }
-  th, td {
-    text-align: left;
-    padding: 12px 14px;
-    border-bottom: 1px solid var(--border);
-  }
-  th {
-    background: #F1F5F9;
-    font-weight: 600;
-  }
-  tr:last-child td { border-bottom: none; }
-  strong { color: var(--text); }
-  .callout {
-    background: var(--card);
-    border: 1px solid var(--border);
-    border-left: 3px solid var(--indigo);
-    border-radius: 6px;
-    padding: 16px 20px;
-    margin: 20px 0;
-    font-size: 15px;
-    color: var(--text-soft);
-  }
-  footer {
-    margin-top: 64px;
-    padding-top: 24px;
-    border-top: 1px solid var(--border);
-    color: var(--text-soft);
-    font-size: 14px;
-  }
-  @media (max-width: 600px) {
-    .container { padding: 32px 18px 64px; }
-    h1 { font-size: 26px; }
-    h2 { font-size: 19px; }
-    table { font-size: 14px; }
-    th, td { padding: 10px 12px; }
-  }
-</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy Policy for Bodymodo</title>
+  <style>
+    :root {
+      color-scheme: light;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: #f8fafc;
+      color: #14213d;
+    }
+    body {
+      margin: 0;
+      padding: 24px 20px 40px;
+      line-height: 1.58;
+      font-size: 16px;
+    }
+    main {
+      max-width: 780px;
+      margin: 0 auto;
+    }
+    h1 {
+      margin: 0 0 8px;
+      font-size: 30px;
+      line-height: 1.16;
+    }
+    h2 {
+      margin: 30px 0 10px;
+      font-size: 21px;
+    }
+    h3 {
+      margin: 20px 0 8px;
+      font-size: 17px;
+    }
+    p {
+      margin: 0 0 14px;
+    }
+    ul {
+      padding-left: 22px;
+      margin: 0 0 16px;
+    }
+    li {
+      margin: 6px 0;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 12px 0 18px;
+      font-size: 14px;
+    }
+    th, td {
+      border: 1px solid #d8e0eb;
+      padding: 10px;
+      vertical-align: top;
+      text-align: left;
+    }
+    th {
+      background: #eef4ff;
+    }
+    .meta {
+      color: #566176;
+      font-size: 14px;
+      margin-bottom: 20px;
+    }
+    .note {
+      border-left: 4px solid #2f80ed;
+      padding: 12px 14px;
+      background: #eef6ff;
+      color: #203047;
+      border-radius: 8px;
+    }
+    a {
+      color: #1b64d8;
+    }
+  </style>
 </head>
 <body>
-<div class="container">
-  <header>
-    <a href="#" class="brand"><span class="brand-dot"></span>Bodymodo</a>
-    <h1>Privacy Policy</h1>
-    <p class="meta">Last updated: 2026-05-26 &middot; Effective: 2026-05-26</p>
-  </header>
+<main>
+  <h1>Privacy Policy for Bodymodo</h1>
+  <p class="meta">Last updated: 2026-05-31<br>Effective date: 2026-05-31</p>
 
-  <p>This privacy policy explains how Bodymodo ("the App", "we", "us") collects, uses, and protects your information when you use our Android application.</p>
+  <p>This Privacy Policy explains how Bodymodo (&quot;Bodymodo&quot;, &quot;the App&quot;, &quot;we&quot;, &quot;us&quot;, or &quot;our&quot;) collects, uses, protects, and deletes information when you use the Bodymodo Android app.</p>
+  <p>Bodymodo is provided by the <strong>Developer Team</strong>. In this policy, &quot;Developer Team&quot; means the team responsible for building, operating, and supporting Bodymodo.</p>
+  <p class="note">This policy is written to describe the app as it works today. It is not legal advice.</p>
 
-  <p>Bodymodo is operated by <strong>Abdelmounaim Yamine</strong> as an independent developer. If you have any questions about this policy or your data, contact us at <a href="mailto:abdeyamine@gmail.com">abdeyamine@gmail.com</a>.</p>
+  <h2>1. Information We Collect</h2>
 
-  <h2>1. What we collect</h2>
-
-  <h3>1.1 Account information (when you sign in)</h3>
-  <p>When you create an account or sign in with Google, we collect:</p>
+  <h3>1.1 Account information</h3>
+  <p>You can use Bodymodo as a guest without creating an account. If you create an account or sign in, Bodymodo uses Firebase Authentication and may collect:</p>
   <ul>
-    <li>Your <strong>email address</strong></li>
-    <li>A unique <strong>user ID</strong> generated by Firebase Authentication</li>
+    <li>Email address</li>
+    <li>Firebase Authentication user ID</li>
+    <li>Google Sign-In token when you choose Google Sign-In</li>
   </ul>
-  <p>We use this only to authenticate you and let you sign back in on other devices.</p>
+  <p>This information is used for sign-in, account management, and account deletion.</p>
+  <p>Bodymodo does not create a Firebase anonymous account for guests. Guest data is stored on your device under a local guest identifier and is not tied to your email unless you later create or sign into an account on that same device.</p>
 
-  <h3>1.2 Fitness and health data (stored on your device)</h3>
-  <p>The following information is stored <strong>locally on your device</strong> and is <strong>not transmitted to our servers</strong>:</p>
+  <h3>1.2 Fitness, health, and wellness data stored on your device</h3>
+  <p>Bodymodo stores the following information locally in the app database on your device:</p>
   <ul>
-    <li>Profile: age, gender, height, weight, goal weight, fitness goal, training environment (home or gym), fitness level, weekly workout frequency</li>
-    <li>Workout history: dates, durations, difficulty ratings, energy levels, exercises completed</li>
-    <li>Body measurements: weight log over time</li>
-    <li>Nutrition: meals you log, water intake</li>
-    <li>Active program and challenge progress</li>
+    <li>Profile details such as age, gender, height, weight, goal weight, body type, fitness goal, training environment, fitness level, weekly workout frequency, preferred workout length, equipment, limitations, activity level, and dietary preferences</li>
+    <li>Workout history such as dates, durations, exercise lists, completion status, difficulty ratings, and energy levels</li>
+    <li>Program, challenge, active workout, and custom workout progress</li>
+    <li>Weight logs and body measurements</li>
+    <li>Nutrition settings, meal logs, meal plans, and water intake</li>
+    <li>Optional progress-photo records saved as local content references</li>
+    <li>Consent history and privacy-control settings</li>
+    <li>Reminder settings for workouts, water, streaks, and other local reminders</li>
   </ul>
-  <p>This data lives in a private database on your device. If you uninstall Bodymodo, it is deleted.</p>
+  <p>This local fitness and wellness data is not uploaded to Bodymodo servers. If you uninstall the App, clear app data, or delete local data from Profile, local guest data and local account-scoped data are removed from that device.</p>
 
-  <h3>1.3 Diagnostic information</h3>
-  <p>To fix bugs and improve stability, we collect anonymous crash reports through <strong>Firebase Crashlytics</strong>. This includes:</p>
+  <h3>1.3 Optional AI workout generation</h3>
+  <p>If you grant AI consent and ask Bodymodo to generate or adapt a workout, a limited workout-generation prompt may be sent through Firebase AI Logic / Gemini. That prompt can include information such as your goal, environment, fitness level, energy level, age, weight, goal weight, preferred workout length, equipment, limitations, activity level, body type, recent difficulty ratings, and recent exercise IDs.</p>
+  <p>The AI response is used to show the workout in the App. If you decline or revoke AI consent, Bodymodo uses local rule-based workout generation and does not send profile details to Firebase AI / Gemini for workout generation.</p>
+
+  <h3>1.4 Crash diagnostics</h3>
+  <p>Bodymodo uses Firebase Crashlytics to diagnose crashes and serious app errors. Crash reports can include:</p>
   <ul>
     <li>Crash stack traces</li>
-    <li>Device model and Android version</li>
+    <li>Device model</li>
+    <li>Android version</li>
     <li>App version</li>
-    <li>Non-personal log messages (warnings and errors)</li>
+    <li>Non-personal warning and error logs</li>
   </ul>
-  <p>Crash reports do not include your name, email, fitness data, or any other personal information.</p>
+  <p>Crash reports are used to find and fix bugs. The Developer Team does not intentionally add your name, email, detailed meals, body measurements, progress photos, or full local fitness history to crash reports.</p>
 
-  <h3>1.4 Notifications</h3>
-  <p>If you enable workout reminders, the App schedules them locally on your device using Android's WorkManager. Reminder settings are stored on your device only. No notification data is sent to our servers.</p>
+  <h3>1.5 Optional analytics</h3>
+  <p>If you grant analytics consent, Bodymodo uses Firebase Analytics to understand whether the beta is reliable and useful. Analytics events can include onboarding started or finished, workout started or finished, program or challenge started or completed, meal logged, and reminder enabled.</p>
+  <p>Analytics events may include app and device information, a Firebase app-instance identifier, content IDs, and high-level interaction metadata such as meal type, workout source, or exercise count. Analytics events do not include your name, email address, body measurements, detailed meal entries, workout notes, progress photos, or full local fitness history.</p>
+  <p>If you decline or revoke analytics consent, Bodymodo does not record Firebase Analytics events.</p>
 
-  <h2>2. What we DO NOT collect</h2>
-  <p>For clarity, Bodymodo does <strong>not</strong> collect or use:</p>
+  <h3>1.6 Notifications and reminders</h3>
+  <p>If you enable reminders, Bodymodo schedules them locally on your device using Android notification and background-work features. Reminder settings are stored on your device. Reminder content is not sent to Bodymodo servers.</p>
+
+  <h2>2. Information We Do Not Collect</h2>
+  <p>Bodymodo does not collect or use:</p>
   <ul>
-    <li>Location data (GPS or otherwise)</li>
-    <li>Camera or microphone access</li>
-    <li>Contacts, calendar, or photos</li>
+    <li>GPS or precise location</li>
+    <li>Camera or microphone data</li>
+    <li>Contacts or calendar data</li>
     <li>Advertising identifiers</li>
-    <li>Analytics about how you use the app</li>
-    <li>Payment information (the app does not currently support in-app purchases)</li>
-    <li>Data from any other apps on your device</li>
+    <li>Payment card or billing information</li>
+    <li>Data from other health, fitness, or social apps</li>
+    <li>Data for ad targeting or data-broker sale</li>
   </ul>
-  <p>We do not sell, rent, or share your personal information with third parties for marketing.</p>
+  <p>Bodymodo does not currently show ads, sell personal information, or rent personal information.</p>
 
-  <h2>3. Third-party services</h2>
-  <p>Bodymodo uses the following services from Google to function:</p>
+  <h2>3. How We Use Information</h2>
+  <p>Bodymodo uses information only to:</p>
+  <ul>
+    <li>Let you use the App as a guest</li>
+    <li>Let you create, sign into, manage, and delete an account</li>
+    <li>Save and display your profile, workouts, programs, meals, water, measurements, progress, and reminders</li>
+    <li>Generate personalized workouts locally, or through Firebase AI / Gemini when you grant AI consent</li>
+    <li>Export or delete your local Bodymodo data when you choose those actions</li>
+    <li>Diagnose and fix crashes and serious errors</li>
+    <li>Understand aggregate beta usage when analytics consent is granted</li>
+    <li>Comply with legal, safety, security, and platform obligations</li>
+  </ul>
+  <p>Bodymodo does not use your information to send marketing emails, build advertising profiles, train Bodymodo-owned AI models, or sell data to data brokers.</p>
+
+  <h2>4. Third-Party Services</h2>
+  <p>Bodymodo uses the following Google services:</p>
   <table>
     <thead>
-      <tr><th>Service</th><th>Purpose</th><th>Data shared</th></tr>
+      <tr>
+        <th>Service</th>
+        <th>Purpose</th>
+        <th>Information involved</th>
+      </tr>
     </thead>
     <tbody>
-      <tr><td>Firebase Authentication</td><td>Sign-in and account management</td><td>Email, password (hashed), user ID</td></tr>
-      <tr><td>Google Sign-In</td><td>Optional faster sign-in</td><td>Google ID token (does not include password)</td></tr>
-      <tr><td>Firebase Crashlytics</td><td>Anonymous crash reporting</td><td>Device model, OS version, app version, stack traces</td></tr>
+      <tr><td>Firebase Authentication</td><td>Sign-in and account management</td><td>Email address, password handled by Firebase, Firebase user ID</td></tr>
+      <tr><td>Google Sign-In</td><td>Optional faster sign-in</td><td>Google identity token for sign-in</td></tr>
+      <tr><td>Firebase Crashlytics</td><td>Crash diagnostics</td><td>Crash traces, device model, OS version, app version, diagnostic logs</td></tr>
+      <tr><td>Firebase Analytics</td><td>Optional analytics</td><td>App interactions, app/device information, Firebase app-instance identifier</td></tr>
+      <tr><td>Firebase AI Logic / Gemini</td><td>Optional AI workout generation</td><td>Limited workout prompt and generated response</td></tr>
     </tbody>
   </table>
-  <p>These services are operated by Google LLC and governed by <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google's Privacy Policy</a>.</p>
-  <p>We do not use any other third-party services, ad networks, or analytics providers.</p>
+  <p>These services are provided by Google LLC and are governed by Google's applicable terms and policies, including <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google's Privacy Policy</a>. Firebase services may process information on Google infrastructure outside your country or region.</p>
+  <p>Bodymodo does not use third-party ad networks.</p>
 
-  <h2>4. How we use your information</h2>
-  <p>We use your information only to:</p>
+  <h2>5. Sharing and Disclosure</h2>
+  <p>Bodymodo does not sell your personal information.</p>
+  <p>Information may be processed by Google services listed above only for the purposes described in this policy. The Developer Team may also disclose information if required by law, to protect rights and safety, to investigate abuse, or as part of a merger, acquisition, reorganization, or transfer of the App, where allowed by applicable law.</p>
+
+  <h2>6. Retention and Deletion</h2>
   <ul>
-    <li>Let you sign in and access your account on multiple devices</li>
-    <li>Show you your workout history, programs, and progress</li>
-    <li>Send you the workout reminders you've explicitly enabled</li>
-    <li>Diagnose and fix crashes</li>
-  </ul>
-  <p>We do <strong>not</strong> use your information to:</p>
-  <ul>
-    <li>Send marketing emails</li>
-    <li>Build advertising profiles</li>
-    <li>Train AI models</li>
-    <li>Share with data brokers</li>
+    <li><strong>Guest and local fitness data:</strong> Stored on your device until you delete it, clear app data, or uninstall Bodymodo.</li>
+    <li><strong>Account email and Firebase user ID:</strong> Stored while your account exists and deleted when your account is deleted, subject to Firebase and legal retention rules.</li>
+    <li><strong>AI workout-generation requests:</strong> Processed by Firebase AI Logic / Gemini according to Google's applicable terms and retention controls.</li>
+    <li><strong>Crash reports:</strong> Retained according to Firebase Crashlytics settings.</li>
+    <li><strong>Analytics events:</strong> Collected only after analytics consent and retained according to Firebase / Google Analytics settings.</li>
+    <li><strong>Feedback messages:</strong> If you send feedback, your email app may include device, app, and session details in the message body. Feedback is used for support and beta improvement.</li>
   </ul>
 
-  <h2>5. How long we keep your data</h2>
+  <h2>7. Your Choices and Rights</h2>
+  <p>You can:</p>
   <ul>
-    <li><strong>Account email and user ID:</strong> retained as long as your account exists. Deleted when you delete your account.</li>
-    <li><strong>Fitness and health data on your device:</strong> retained until you delete the app or clear its data.</li>
-    <li><strong>Crash reports:</strong> retained by Firebase Crashlytics for up to 90 days, then automatically deleted.</li>
+    <li>Use Bodymodo as a guest without an account</li>
+    <li>Review or change AI and analytics consent in <strong>Profile &gt; Privacy controls</strong></li>
+    <li>Export readable, JSON, or CSV copies of local Bodymodo data from Profile</li>
+    <li>Delete local profile, workout, meal, measurement, reminder, and progress data from Profile</li>
+    <li>Delete an account from Profile when signed in</li>
+    <li>Submit privacy, support, or account-deletion requests through the in-app feedback/contact flow or through the Bodymodo contact channel listed on the app store listing</li>
   </ul>
+  <p>Users in some regions may have additional privacy rights, including rights to access, correct, delete, restrict, object to, or export certain personal information. For example, EEA and UK users may have GDPR rights, and California residents may have CCPA/CPRA rights. The Developer Team will respond to valid privacy requests within 30 days unless a different period is required or allowed by applicable law.</p>
 
-  <h2>6. Your rights</h2>
-  <p>You can at any time:</p>
-  <ul>
-    <li><strong>Access your data:</strong> all your fitness data is visible inside the app.</li>
-    <li><strong>Delete your data:</strong> uninstalling the app deletes all locally stored fitness data. To delete your account (email and user ID), contact us at <a href="mailto:abdeyamine@gmail.com">abdeyamine@gmail.com</a>.</li>
-    <li><strong>Export your data:</strong> request a copy by emailing <a href="mailto:abdeyamine@gmail.com">abdeyamine@gmail.com</a>.</li>
-    <li><strong>Opt out of crash reporting:</strong> unfortunately Crashlytics is enabled by default and cannot be disabled in the app yet. You can opt out by uninstalling the app. We plan to add an in-app toggle in a future version.</li>
-  </ul>
-  <div class="callout">
-    If you are in the European Economic Area (EEA), you have additional rights under the <strong>GDPR</strong>, including the right to data portability and the right to lodge a complaint with your local data protection authority.<br><br>
-    If you are a California resident, you have rights under the <strong>CCPA</strong>, including the right to know what personal information we have, request deletion, and not be discriminated against for exercising these rights.
-  </div>
+  <h2>8. Children's Privacy</h2>
+  <p>Bodymodo is not intended for children under 13 years old. The Developer Team does not knowingly collect personal information from children under 13. If you believe a child has provided personal information through Bodymodo, contact the Developer Team and the information will be deleted where required.</p>
 
-  <h2>7. Children's privacy</h2>
-  <p>Bodymodo is not intended for users under <strong>13 years of age</strong>. We do not knowingly collect personal information from children under 13. If you believe a child has provided us with personal information, contact us and we will delete it.</p>
+  <h2>9. Security</h2>
+  <p>The Developer Team uses reasonable technical and organizational measures to protect information. Firebase services use protections such as encrypted transmission, and local Bodymodo data is protected by Android app sandboxing.</p>
+  <p>No app, network, or storage system is completely secure. If the Developer Team becomes aware of a data breach affecting your information, users will be notified as required by applicable law.</p>
 
-  <h2>8. Data security</h2>
-  <p>We rely on Google Firebase for authentication and crash reporting, which uses industry-standard encryption (TLS in transit, encryption at rest). Your fitness data stored on your device is protected by Android's app sandbox — no other app can access it.</p>
-  <p>No system is 100% secure. If we become aware of a data breach affecting your information, we will notify you as required by applicable law.</p>
+  <h2>10. International Transfers</h2>
+  <p>Google services used by Bodymodo may process information on servers in the United States or other countries. Data-protection laws in those countries may differ from the laws where you live. The Developer Team relies on Google Firebase controls and applicable safeguards for those transfers.</p>
 
-  <h2>9. International data transfers</h2>
-  <p>Firebase services are operated by Google LLC, headquartered in the United States. If you access Bodymodo from outside the US, your account information may be transferred to and processed in the US. Google maintains appropriate safeguards for international transfers.</p>
+  <h2>11. Changes to This Policy</h2>
+  <p>The Developer Team may update this Privacy Policy from time to time. When the policy changes, the &quot;Last updated&quot; date will be changed. If changes are material, Bodymodo may ask you to review and accept the updated legal documents before continuing to use affected features.</p>
 
-  <h2>10. Changes to this policy</h2>
-  <p>We may update this privacy policy from time to time. When we do, we will:</p>
-  <ul>
-    <li>Update the "Last updated" date at the top</li>
-    <li>Notify you inside the app if changes are material (e.g., new categories of data collected)</li>
-  </ul>
-  <p>Continued use of the App after changes means you accept the updated policy.</p>
-
-  <h2>11. Contact</h2>
-  <p>Questions, requests, or concerns about this policy or your data:</p>
-  <p><strong>Email:</strong> <a href="mailto:abdeyamine@gmail.com">abdeyamine@gmail.com</a></p>
-  <p>We respond to privacy requests within 30 days.</p>
-
-  <footer>
-    This privacy policy is provided in good faith and reflects how Bodymodo handles user data as of the effective date above. It is not legal advice. If you have specific legal questions about your rights, consult a qualified attorney in your jurisdiction.
-  </footer>
-</div>
+  <h2>12. Contact</h2>
+  <p>For privacy questions, support requests, or account-deletion requests, contact the <strong>Developer Team</strong> through the in-app feedback/contact flow or the Bodymodo contact channel listed on the app store listing.</p>
+</main>
 </body>
 </html>
